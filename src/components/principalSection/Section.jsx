@@ -1,45 +1,13 @@
 import Home from "./home/Home"
 import Recommended from "./recommended/Recommended"
+import FeatureIncomed from "./featuredIncome/FeatureIncomed"
 
 const Section = () => {
   return (
     <section className='w-full h-full'>
       <Home></Home>
       <Recommended></Recommended>
-
-      <div className="w-full h-full p-4" id="rentas_destacadas">
-        <p className="mb-4 text-3xl font-semibold text-primary dark:text-white">Rentas destacadas</p>
-
-        <div className="w-full h-full flex flex-col items-center justify-center">
-          <div className="w-full h-96 bg-my-image2 bg-cover rounded-xl">
-            <p className="cardTitle">Imagen</p>
-
-            <p className='text-sm pl-4 text-black mr-24 md:text-xl'>descripcion de la card y bla bla bla</p>
-          </div>
-
-          <div className="w-full md:flex md:h-full md:w-full md:space-x-4 mt-4">
-            <div className="w-full h-96 bg-my-image bg-cover rounded-xl md:h-auto">
-              <p className="cardTitle">Imagen</p>
-
-              <p className='text-sm pl-4 text-black mr-24 md:text-xl'>descripcion de la card y bla bla bla</p>
-            </div>
-
-            <div className="md:flex md:flex-col mt-4">
-              <div className="w-full h-96 bg-my-image bg-cover rounded-xl">
-                <p className="cardTitle">Imagen</p>
-
-                <p className='text-sm pl-4 text-black mr-24 md:text-xl'>descripcion de la card y bla bla bla</p>
-              </div>
-              
-              <div className="w-full h-96 bg-my-image2 bg-cover bg-center rounded-xl mt-4">
-                <p className="cardTitle">Imagen</p>
-
-                <p className='text-sm pl-4 text-black mr-24 md:text-xl'>descripcion de la card y bla bla bla</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FeatureIncomed></FeatureIncomed>
 
       <div className='w-full h-full p-4' id='fqs'>
         <div className="w-full h-full flex flex-col space-y-4">
