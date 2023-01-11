@@ -16,10 +16,10 @@ const FeatureIncomed = () => {
           <FeatureIncomedCard
             title='Titulo uno'
             description='description of description 1'
-            background='bg-my-image md:h-auto'
+            background='bg-my-image md:h-auto mb-4'
           ></FeatureIncomedCard>
 
-          <div className="md:flex md:flex-col mt-4">
+          <div className="md:flex md:flex-col">
             <FeatureIncomedCard
               title='Titulo uno'
               description='description of description 1'
@@ -29,7 +29,7 @@ const FeatureIncomed = () => {
             <FeatureIncomedCard
               title='Titulo uno'
               description='description of description 1'
-              background='bg-my-image2'
+              background='bg-my-image2 mb-4'
             ></FeatureIncomedCard>
           </div>
         </div>
