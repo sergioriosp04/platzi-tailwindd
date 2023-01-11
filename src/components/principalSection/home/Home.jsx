@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <div className="" id="home">
-      <div className="">
-        <div className="absolute w-full h-full flex flex-col items-center space-y-64 py-4 md:space-y-0 md:items-start md:mt-32 md:ml-10">
+      <div className="w-full">
+        <div className="absolute w-full h-full flex flex-col items-center space-y-64 py-4 md:space-y-0 md:items-start md:mt-32">
           <input 
             className="rounded-full outline-none p-3 shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 md:hidden" 
             type="search" 
@@ -11,11 +11,11 @@ const Home = () => {
             placeholder="Buscar"
           />
 
-          <div className="hidden h-auto md:w-2/5 md:flex pb-6">
+          <div className="hidden h-auto md:w-2/5 md:flex pb-6 ml-10">
             <p className="text-3xl font-semibold">Este es un mensaje de bienvenida y saludos</p> 
           </div>
 
-          <button className="w-32 text-primary bg-white font-semibold rounded-full p-3 text-xl transition transition-all duration-500 ease-out hover:bg-primary hover:text-white transform hover:-translate-y-1.5 hover:scale-110 md:w-44">
+          <button className="w-32 text-primary bg-white font-semibold rounded-full p-3 text-xl transition-all duration-500 ease-out hover:bg-primary hover:text-white transform hover:-translate-y-1.5 hover:scale-110 md:w-44 md:ml-10">
             Explorar
           </button>
         </div>
